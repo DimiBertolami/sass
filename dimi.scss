@@ -1,0 +1,9 @@
+@mixin bg($bg: 10px 10px 19px -4px rgba(255, 255, 255, 0.75)){
+  -webkit-box-shadow: $bg;
+  -moz-box-shadow: $bg;
+  box-shadow: $bg;
+}
+
+.article section {
+  @include bg;
+}
